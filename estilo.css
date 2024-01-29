@@ -1,42 +1,58 @@
-*{
-    margin: 0;
-}
 
 body {
-    background-color: blue;
+    background-color: gray;
     font-family:'arial';
     font-size: 25px;
     color: #000;
-    margin: 50px;
+    
 }
 .topo {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
 .topo a {
     color: rgb(0, 0, 0);
-    text-decoration:double;
-    padding: 10px;
+    text-decoration:none;
+    padding: 30px;
 }
-article a {
+.botao {
     background-color:pink;
     color: red;
     text-decoration: none;
     padding: 5px;
+    
 }
-article {
-    background-color: purple;
-    padding: 5px;
+.materia a:hover{
+    color: blue;
+}
+.materia {
+    background-color: brown;
+    padding: 10px;
+    margin: 20px;
 }
 .rodape {
     background-color: black;
     color: yellow;
     padding: 50px;
 }
-
 main{
-    margin: 20px;
+    margin: none;
 }
+.menu {
+    display:flex;
+    list-style:none;
+    margin-left:auto;
+}
+.menu li{
+    margin-left: 30px;
+}
+.menu a:hover {
+    color:red;
+}
+.navegacao {
+    display: flex;
+}
+
 
 
 
