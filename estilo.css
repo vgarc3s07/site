@@ -1,7 +1,7 @@
 
 body {
     background-color: gray;
-    font-family:'arial';
+    font-family:'times new roman';
     font-size: 25px;
     color: #000;
     
@@ -20,6 +20,7 @@ body {
     color: red;
     text-decoration: none;
     padding: 5px;
+    display: inline-block;
     
 }
 .materia a:hover{
@@ -29,11 +30,16 @@ body {
     background-color: brown;
     padding: 10px;
     margin: 20px;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .rodape {
     background-color: black;
     color: yellow;
     padding: 50px;
+    text-align: center;
 }
 main{
     margin: none;
@@ -52,6 +58,27 @@ main{
 .navegacao {
     display: flex;
 }
+.titulo {
+    text-align: center;
+    text-decoration-line:underline;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+.texto {
+    text-align:center;
+    margin-bottom: 40px;
+    font-size: Arial
+;
+}
+.materia img {
+    width: 100%;
+} 
+.materia h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
 
 
 
