@@ -1,20 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Economia para Leigos </title>
+<!--Link para vínculo com um arquivo pelo atributo href-->
     <link href="estilo.css" rel="stylesheet" >
 </head>
 <body>
-    <header> 
-        <ul> 
-            <a href="index.html"> <img src="casa.png">  </a>
+    <header class="topo">
+
+        <nav class="navegacao">
+        <a href="login.html"> Login</a>
+        <ul class="menu">
+            <li> <a href="index.html">home</a> </li>
+            <li> <a href="contato.html">contato</a> </li>
+            <li> <a href="noticias.html">noticias</a>  </li>
+            <li> <a href="alunos.html">Alunos do Senai</a> </li>
         </ul>
+        </nav>
     </header>
-<h1>Site em construção</h1>
-    <p> O empreitero roubou a verba da obra. Volte daqui 4 anos</p>
-<img src="imagem_10.jpg">
+
+<main class="corpo">
     
+<!--Introdução--> 
+<h1 class="titulo"> CONTATO</h1>
+<p class="subtitulo"> Aqui temos a página de contato. Insira seus dados abaixo!</p>        
+<!--Criando um formulário-->
+<form class="contato">
+    <label class="rotulo"> Nome:
+            <input type="text"  class="campo">
+    </label>
+    <label class="rotulo"> Email:
+        <input type="email" class="campo">
+    </label>
+    <label class="rotulo">Assunto:
+        <br> 
+        <select class="campo"> 
+            <option>Dúvidas</option>
+            <option>Sugestões</option>
+            <option>Críticas</option>
+        </select>
+    </label>
+    <label class="rotulo">Digite o seu comentário: 
+        <textarea class="campo"> </textarea>
+    </label>
+<!-- Adicionando um botão-->    
+<button class="botao"> Enviar</button>
+    
+</form>
+</main>
+</div>
+<!--Rodapé-->
+<footer class="rodape"> 
+    Volte ao início!
+</footer>
+
 </body>
 </html>

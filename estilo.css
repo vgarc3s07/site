@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: gray;
     font-family:'times new roman';
@@ -21,7 +23,9 @@ body {
     text-decoration: none;
     padding: 5px;
     display: inline-block;
-    
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
 }
 .materia a:hover{
     color: blue;
@@ -29,11 +33,14 @@ body {
 .materia {
     background-color: brown;
     padding: 10px;
+    margin-bottom: 30px;
     margin: 20px;
     width: 600px;
+    display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 .rodape {
     background-color: black;
@@ -68,17 +75,62 @@ main{
 .texto {
     text-align:center;
     margin-bottom: 40px;
-    font-size: Arial
-;
+    font-size: Arial;
 }
 .materia img {
     width: 100%;
+    margin-bottom: 10px;
 } 
 .materia h1 {
     margin-bottom: 10px;
     font-size: 30px;
 }
 
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px,1fr));
+    gap: 50px;
+}
+.corpo {
+    padding: 30px;
+    margin: none;
+}
+
+.contato {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: white;
+    display:block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+}    
+.rotulo {
+    display: block;
+    margin-bottom: 20px;
+}
+.campo {
+    background-color: darkgray;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px #000000 solid;
+}
+.campo:focus {
+    background-color: blue;
+    color: brown;
+    outline: none;
+}
+textarea.campo {
+    height: 150px;
+    padding: 10px;
+}
+.subtitulo {
+    text-align: center;
+}
 
 
 
