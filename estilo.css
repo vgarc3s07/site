@@ -71,7 +71,7 @@ main{
     text-align: center;
     text-decoration-line:underline;
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 .texto {
@@ -84,8 +84,8 @@ main{
     margin-bottom: 10px;
 } 
 .materia h1 {
-    margin-bottom: 10px;
-    font-size: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
 }
 
 .grade {
@@ -142,4 +142,27 @@ textarea.campo {
     border-radius: 10px;
     background-color: white;
     padding:10px;
+}
+
+.login {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: block;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width:768px) {
+    .topo a {
+        font-size: 20px;
+    }
+    .materia h1 {
+        font-size: 30px;
+    }
+    .menu {
+        display: flex;
+    }
 }
